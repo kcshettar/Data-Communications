@@ -1,0 +1,140 @@
+/____________GET_LOCALHOST___/
+SERVER: Waiting for client requests on port number 8057
+
+CONNECTION ESTABLISHED: client & server
+Client IP : /127.0.0.1
+Server IP : localhost/127.0.0.1 : 8057
+
+CONNECTION INITIALIZED: client Input/Output streams
+
+CLIENT REQUEST: 
+GET //home/kcshettar/workspace/http_connection/index.html HTTP/1.0
+
+
+SERVER'S RESPORNSE: 
+HTTP/1.0 200 OK
+
+Kiran's Homepage
+Content-Type:text/html
+Content-Length: 1755
+Connection: CLOSE
+
+
+<html>
+<head>
+
+<title>Kiran's HomePage</title>
+
+<style>
+<!--REMOVED 
+-->
+
+</body>
+</html>
+
+/PUT_LOCALHOST____/
+SERVER: Waiting for client requests on port number 8058
+
+CONNECTION ESTABLISHED: client & server
+Client IP : /127.0.0.1
+Server IP : localhost/127.0.0.1 : 8058
+
+CONNECTION INITIALIZED: client Input/Output streams
+
+CLIENT REQUEST: 
+PUT index.html
+File size = 1755
+SERVER'S RESPORNSE: 
+HTTP/1.0200 OK
+
+DATE: Tue Oct 18 12:44:00 EDT 2016
+Content-Type:Content-Type: text/html
+
+
+Content-Length: 6
+
+/___________GET_GLOBAL____________/
+CONNECTION ESTABLISHED: client & server
+Client IP : /10.0.0.66
+Server IP : www.gmail.com/216.58.219.229 : 80
+
+CONNECTION INITIALIZED: client Input/Output streams
+
+CLIENT REQUEST: 
+GET /index.html HTTP/1.0
+
+
+SERVER'S RESPORNSE: 
+HTTP/1.0 200 OK
+Date: Tue, 18 Oct 2016 16:47:16 GMT
+Expires: -1
+Cache-Control: private, max-age=0
+Content-Type: text/html; charset=ISO-8859-1
+P3P: CP="This is not a P3P policy! See https://www.google.com/support/accounts/answer/151657?hl=en for more info."
+Server: gws
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: NID=89=itnnzJAW_SUGdFj0nc8MhiRq2WgIhb_-YoiJGKHzN1ckNsKJ85f2xRFaTDX16b3gAYkbRasHjMTZ46fjzKEil4-5JqzdWViAMB59Rj7x53vpI3am8uIhX6ff-tvWZ6VFuuebbVSMl40wrQ; expires=Wed, 19-Apr-2017 16:47:16 GMT; path=/; domain=.google.com; HttpOnly
+Accept-Ranges: none
+Vary: Accept-Encoding
+
+<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage"
+<!--Modified
+-->
+</script></div></body></html>
+
+
+/____________GET_GLOBAL_MOVED_PERMANENTYL___/
+CONNECTION ESTABLISHED: client & server
+Client IP : /10.0.0.66
+Server IP : www.amazon.com/54.239.25.192 : 80
+
+CONNECTION INITIALIZED: client Input/Output streams
+
+CLIENT REQUEST: 
+GET /index.html HTTP/1.0
+
+
+SERVER'S RESPORNSE: 
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 18 Oct 2016 16:50:34 GMT
+Server: Server
+Location: https:///index.html
+Content-Length: 227
+Keep-Alive: timeout=2, max=14
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https:///index.html">here</a>.</p>
+</body></html>
+
+/____________________GET_GLOBAL________WRONG_PATH___/
+SERVER: Waiting for client requests on port number 8059
+
+CONNECTION ESTABLISHED: client & server
+Client IP : /127.0.0.1
+Server IP : localhost/127.0.0.1 : 8059
+
+CONNECTION INITIALIZED: client Input/Output streams
+
+CLIENT REQUEST: 
+GET //kcshettar/index.html HTTP/1.0
+
+
+SERVER'S RESPORNSE: 
+HTTP/1.0 404 Not Found
+Kiran's Homepage
+
+Content-Type: 
+Content-Length: 108
+Connection: CLOSE
+
+<html><title>Java Server - To Infinity And Beyond</ti
+tle><body><b>RESOURCE NOT FOUND ON SERVER</body></html>
+
+
